@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 $dbFile = 'urlshortener.db';
-$token = "xxxxxxxxxxxxxxxxxxxxxxxxxx";
+$token = "votre_token_ici";
 
 if (!isset($_GET['token']) || $_GET['token'] !== $token) {
     http_response_code(401);
